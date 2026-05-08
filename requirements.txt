@@ -1,0 +1,12 @@
+# Aero Hand Gesture Control - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+pyserial         # Serial communication for Aero Hand
+opencv-python   # Camera capture and image processing
+numpy        # Numerical computations
+Pillow        # Image processing and Tkinter integration
+mediapipe>=0.10.9      # Hand tracking and landmark detection
+
+# Optional dependencies
+#esptool        # ESP32 firmware flashing tool (optional)
